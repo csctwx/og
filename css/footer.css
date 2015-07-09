@@ -1,0 +1,115 @@
+/* 
+
+########  #######   #######  ######## ######## ########  
+##       ##     ## ##     ##    ##    ##       ##     ## 
+##       ##     ## ##     ##    ##    ##       ##     ## 
+######   ##     ## ##     ##    ##    ######   ########  
+##       ##     ## ##     ##    ##    ##       ##   ##   
+##       ##     ## ##     ##    ##    ##       ##    ##  
+##        #######   #######     ##    ######## ##     ## 
+
+ */
+
+
+
+/* ********************************************** *
+    COMMENT NEXT BLOCK OUT TO SHOW PRESS SECTION 
+*  ********************************************** */
+.region-footer .block-menu.last .leaf.first {
+	display:none;
+}
+
+
+
+
+.region-footer,
+.region-bottom {
+  overflow: visible;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.Footer ul li, .Bottom ul li{
+	float:left;
+	margin-right:10px;
+	list-style: none;
+}
+.Footer a{
+	font-family: ff-basic-gothic-web-pro,sans-serif;
+ 	font-size:12px;
+ 	font-weight:100;
+ 	text-shadow: 3px 3px 5px #333333;
+	/*filter: dropshadow(color=#333333, offx=3, offy=3);*/
+}
+
+
+.region-footer .block-menu.first {
+	background-image:url("/sites/all/themes/og/images/bot_ribbon.jpg");
+	background-repeat: repeat-x;
+	height:58px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	-webkit-box-shadow: 0px 4px 6px 0px #691346;
+	-moz-box-shadow: 0px 4px 6px 0px #691346;
+	box-shadow: 0px 4px 6px 0px #691346;
+	behavior: url(ie-css3.htc);
+	/*border-top:1px solid #f65e99; */ /*TODO:EIE: Fix this positioning.... Border? no */
+}
+
+.region-footer .block-menu.first .menu{
+	margin-top:4px;
+	padding-left: 170px;
+}
+.region-footer .block-menu.last .menu{
+	padding-left: 170px;
+}
+
+.region-footer .block-menu.first .last.leaf {
+	margin-left:-10px;
+}
+.region-footer .block-menu.first .leaf{
+	width: 80px;
+	position: relative;
+	height: 70px;
+	margin: 0px;
+}
+.region-footer .block-menu.first .first.leaf{
+	width: 70px;
+}
+.region-footer .block-menu.last .leaf{
+	margin-right:48px;
+}
+
+.region-footer .block-menu.first a { position:absolute; top:-3px; left:0px; height:70px; width:75px; background-repeat: no-repeat; z-index:2; text-indent:-2000px;}
+#our-story { background-image:url("/sites/all/themes/og/images/bot_our_story.png"); }
+#where-to-find { background-image:url("/sites/all/themes/og/images/bot_where.png"); }
+#og-mail { background-image:url("/sites/all/themes/og/images/bot_og_mail.png"); }
+#charity { background-image:url("/sites/all/themes/og/images/bot_free.png"); }
+
+
+.region-footer {
+	margin-top:-4px;
+}
+.content-inner, .full-section, .region-footer .menu {
+	margin-left:auto;
+	margin-right:auto;
+	width:970px;
+	position:relative;
+	height:100%;
+}
+.region-footer .menu a {
+ 	color:#ffffff;
+ 	text-decoration:none;
+ 	font-weight:normal;
+ 	font-family:arial, helvetica, sans-serif;
+ } 
+ 
+ .region-footer .block-menu.last {
+	background-color:transparent;
+	height:70px;
+	margin:0px;
+	padding:0px;
+	padding-left:15px;
+	position:relative;
+	/*border-top:1px solid #f65e99; /*TODO:EIE: Fix this positioning.... Border? no */
+}

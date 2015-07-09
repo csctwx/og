@@ -1,0 +1,333 @@
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation
+ */
+#navigation {
+  width: 970px;
+  margin-left: auto;
+  margin-right:auto;
+  position:relative;
+}
+
+.with-navigation #content,
+.with-navigation .region-sidebar-first,
+.with-navigation .region-sidebar-second {
+  margin-top: 38px; /* Set this to the same value as the navigation height above. */
+}
+
+body.node-type-homepage .with-navigation #content {
+  margin-top:15px;
+}
+
+
+#navigation a{
+  font-weight:normal;
+  color:#ffffff;
+  font-size:17px;
+  letter-spacing:-.2px;
+  /*
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  filter: dropshadow(color=#000000, offx=0, offy=0);
+  */
+  text-shadow: 2px 3px 3px #be4286;
+  /*filter: dropshadow(color=#75214b, offx=1, offy=2);*/
+  
+  text-decoration:none;
+}
+
+#navigation a:hover, #navigation a.active, #navigation a.active-trail {
+  color:#fffc00;
+}
+
+#navigation .menu-wrapper {
+  position:absolute;
+  top:12px;
+  left:60px;
+  width:740px;
+}
+
+#navigation ul.links, /* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+}
+
+#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+}
+#navigation ul.menu {
+  width:800px;
+  margin-top:2px;
+}
+#navigation ul.menu li.leaf, #navigation ul.menu li.expanded, #navigation ul.menu li.collapsed{
+  list-style:none;
+  
+}
+/*#navigation ul.menu li { float:left; margin-right:25px; position:relative; padding:2px;}*/
+#navigation ul.menu li { 
+  position:relative;
+  float:left;
+  margin-right:30px;
+}
+
+#navigation ul.menu li ul.menu { 
+  padding-top:35px;
+  margin-top:10px;
+  float:left;
+  padding-top:0px;
+  background-color: transparent;
+  position:absolute;
+  top:14px;
+  left:-15px;
+  display:none;
+  width:175px;
+  height:166px;
+  padding:2px;
+  padding-left:12px;
+  padding-top:20px;
+  /*background-image:url(../images/nav_menu_01.png);*/
+  background-image:url(../images/nav_menu_01.png);
+  background-repeat:no-repeat;
+  z-index:10;
+}
+#navigation ul.menu li ul.menu a {  background-image:none; font-size: 16px; width:100%; line-height:12px; }
+#navigation ul.menu li.last ul.menu { 
+  left:-5px;
+  top:18px;
+  width:175px;
+  height:140px;
+  background-image:url(../images/nav_menu_02.png);
+}
+#navigation ul.menu li ul.menu.four-item { 
+  background-image:url(../images/submenu_bg4.png);
+}
+#navigation ul.menu li ul.two-item { 
+	height:52px;
+	background-image:url(../images/submenu_bg2.png);
+}
+#navigation ul.menu li ul.menu li{ 
+  position:relative;
+  float:none;
+  background-color:#ff6ca8;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0px;
+  margin-top:0px;
+
+}
+
+#block-search-form {
+  position:absolute;
+  top:3px;
+  right:0px;
+  width:166px;
+  margin:0px;
+  margin-right:-3px;
+  margin-top:-3px;
+}
+#block-search-form div.form-actions {
+  display:none;
+}
+
+div.form-item-search-block-form input.form-text {
+  border:1px solid #862684; 
+  background-color:#fda0bf;
+  color:#912f6c;
+  width:125px;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder {
+  color:#912f6c;
+}
+
+div.form-item-search-block-form.form-item {
+  border:1px dashed #fda0bf;
+  padding:2px 3px;
+  position:relative;
+  display:block;
+  float:left;
+  margin:0px;
+}
+
+span.search-submitter {
+  height:28px;
+  position:relative;
+  float:right;
+  display:block;
+  width:28px;
+  background-image:url(../images/search-submit.png);
+}
+
+span.search-submitter:hover {
+  cursor:hand;
+  cursor:pointer;
+}
+
+.region-navigation {
+}
+
+/*
+ * Main menu and Secondary menu links
+ */
+#main-menu{
+}
+
+#secondary-menu {
+  float: right;
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+/*
+ * "Menu block" blocks
+ *
+ * Drupal core has limited ways in which it can display its menus. To get around
+ * these limitations, see http://drupal.org/project/menu_block
+ */
+.block-menu-block {
+}
+
+
+img.badge {
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	z-index:2;
+}
+
+div.tagline {
+	position:absolute;
+	left: 82px;
+  top: 1px;
+	z-index:2;
+}
+
+div.logo {
+	position:absolute;
+	right: 12px;
+  top: 0px;
+	z-index:2;
+}
+div.logo a span {
+	display: none;
+}
+
+div.region.region-navigation {
+	margin:0px;
+	position:relative;
+}
+
+
+
+div.nav-wrapper {
+  background-image:url("/sites/all/themes/og/images/nav_ribbon.jpg");
+  position:relative;
+  background-repeat: repeat-x;
+  height:49px;
+  z-index:10;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, .30);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, .30);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, .30);
+
+}
+
+
+div.nav-wrapper ul.menu a { 
+  float:left;
+  /*top:0px; 
+  left:0px; */
+  /*
+  background-repeat: no-repeat; 
+  text-indent:-2000px;
+  */
+  height:29px;
+}
+div.nav-wrapper ul.menu ul.menu a {
+  text-indent:0px;
+  position:relative;
+  color:#ffffff;
+
+  
+
+}
+body.node-type-accessory #top-ribbon, 
+body.node-type-doll-list #top-ribbon {
+  z-index:1;
+}
+
+div.top-ribbon {
+	margin-left:-90px;
+}
+
+body.node-type-accessory #top-ribbon, 
+body.node-type-doll-list #top-ribbon, 
+div.top-ribbon {
+  height:40px; 
+  position:absolute; 
+  left:0px; 
+  width:100%; 
+  background-color:orange; 
+  background:url('../images/doll-ribbon.png') 0 -30px repeat-x;
+  background-repeat:repeat-x;
+}
+
+
+/*
+.nav-meet {
+  width:126px;
+  left:0px;
+}
+.nav-accessories {
+  width:91px;
+  left:150px;
+}
+.nav-hair {
+  width:151px;
+  left:256px;
+}
+.nav-book {
+  width:85px;
+  left:574px;
+}
+.nav-wall {
+  width:128px;
+  left:420px;
+}
+.nav-fun {
+  width:40px;
+  left:672px;
+}
+.nav-og {
+  width:70px;
+  left:726px;
+}
+.title-color {
+	color:#912f6c;
+	width:50px;
+	text-align: center;
+}
+*/
+
+
+

@@ -1,0 +1,216 @@
+
+/*
+########  ##          ###    #### ##    ##    ########     ###     ######   ########  ######  
+##     ## ##         ## ##    ##  ###   ##    ##     ##   ## ##   ##    ##  ##       ##    ## 
+##     ## ##        ##   ##   ##  ####  ##    ##     ##  ##   ##  ##        ##       ##       
+########  ##       ##     ##  ##  ## ## ##    ########  ##     ## ##   #### ######    ######  
+##        ##       #########  ##  ##  ####    ##        ######### ##    ##  ##             ## 
+##        ##       ##     ##  ##  ##   ###    ##        ##     ## ##    ##  ##       ##    ## 
+##        ######## ##     ## #### ##    ##    ##        ##     ##  ######   ########  ######     */
+
+
+div.plain-left {
+	/*float:left;*/
+	width:306px;
+}
+div.plain-left .deco{
+	background-repeat:no-repeat;
+	height:111px;
+	margin-top:-20px;
+}
+div.plain-wrapper {
+
+}
+
+div.plain-right {
+	/*float:left;*/
+	padding-left:320px;
+	margin-top:-100px;
+	width:545px;
+}
+
+div.ribbon-top {
+	background-repeat:no-repeat;
+	background-image:url(../images/mail_header_ribbon.png);
+	height:50px;
+	position:relative;
+}
+
+div.ribbon-top h2 {
+	position:relative;
+	font-size:17px;
+	margin:0px;
+	margin-left:30px;
+	padding:0px;
+	padding-top:15px;
+}
+
+div.ribbon-top div.view-content {
+	margin-top:14px;
+}
+div.view-content {
+	position: relative;
+}
+div.mail-wrapper p, div.mail-wrapper h3 {
+	margin:0px;
+}
+.mail-date {
+	color:#c717dc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:900;
+}
+div.mail-wrapper {
+	margin-left:34px;
+	margin-bottom:20px;
+}
+div.mail-wrapper a {
+	color:#593b8c;
+	font-size:20px;
+	font-weight:400;
+	text-decoration:none;
+	border-bottom:2px solid #593b8c;
+}
+div.mail-thanks a {
+	color:white;
+}
+div.mail-thanks {
+	color:#f19ac2;
+	margin:20px;
+	margin-top:25px;
+	width:200px;
+	font-size:15px;
+}
+
+h2 a, h3 a {
+	text-decoration:none;
+}
+
+/* CHARITY STYLES */
+
+div.charity-video {
+	height:348px;
+	width:557px;
+	background-image:url(../images/free_vid_bg.png);
+}
+div.charity-video iframe {
+	margin-left:10px;
+	margin-top:10px;
+}
+
+body.node-type-charity-news div.panel-col-last h2,
+#charity-section div.panel-col-last h2 {
+	color:#ffffff;
+	height:53px;
+	background-repeat: no-repeat;
+	padding-top:17px;
+	padding-left:21px;
+	margin:0px;
+	margin-left: 14px;
+	margin-bottom:0px;
+	background-image:url(../images/free_news.jpg);
+}
+
+body.node-type-charity-news div.panel-2col div.panel-col-first,
+#charity-section div.panel-2col div.panel-col-first {
+	width:545px;
+}
+div.pane-landing-pane-charity-news {
+	margin-top:89px;
+	position:relative;
+}
+
+#charity-section a {
+	text-decoration:none;
+}
+
+#charity-section h3 a {
+	color:#cb1994;
+}
+
+#charity-section div#content-wrapper div.content-inner #content h1{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#charity-section .with-navigation #content {
+	margin-top:-7px;
+	
+}
+#charity-section div.panel-col-first div.content {
+	margin-left:5px;
+}
+#charity-section .charity-readmore a, #charity-section .charity-readmore{
+	text-decoration: underline;
+}
+
+.basic-image-grid {
+	margin-top:10px;
+}
+.read-button { margin-top:16px; }
+.read-button a{
+	background-repeat:no-repeat;
+	background-image:url(../images/free_readmore.png);
+	padding-top:10px;
+	font-size: 18px;
+	text-align:center;
+	width:126px;
+	height:40px;
+	text-decoration:none;
+	color:#ffffff;
+	display:block;
+	position:relative;
+	margin-right:auto;
+	margin-left:40px;
+}
+.read-button a:hover {
+	color:#fff000;
+	background-position: 0px -50px;
+
+}
+
+#charity-section h3 {
+	line-height:20px;
+	font-size:20px;
+	margin:0px;	
+	margin-top:21px;
+	font-weight:400;
+}
+#charity-section div.header-image {
+	margin-left:-35px;
+}
+#charity-section div.panel-col-last p {
+	margin:0px;
+}
+#charity-section #content p {
+	margin-bottom:15px;
+}
+#charity-section div.view-landing {
+	padding-left:20px;
+}
+#charity-section div.panel-col-last {
+	width:320px;
+}
+div.charity-news-small p {
+	display:inline;
+}
+div.charity-news-small {
+	width:210px;
+}
+
+.view-charity-news-list h2 {
+	margin-bottom:4px;
+	color:#cb1994;
+}
+.view-charity-news-list h2 a{
+	color:#cb1994;
+}
+.view-charity-news-list p {
+	margin-top:0px;
+	margin-bottom:0px;
+	display:inline;
+}
+
+div.field-content.results-body {
+	width:600px;
+}
+

@@ -1,0 +1,166 @@
+
+/* 
+
+ ######   ########  #### ########  
+##    ##  ##     ##  ##  ##     ## 
+##        ##     ##  ##  ##     ## 
+##   #### ########   ##  ##     ## 
+##    ##  ##   ##    ##  ##     ## 
+##    ##  ##    ##   ##  ##     ## 
+ ######   ##     ## #### ########  
+
+ */
+div.panel-2col {
+	postion:relative;
+	width: 970px;
+}
+div.panel-2col div.panel-col-first div.inside {
+	margin-right:0px;
+}
+div.panel-2col div.panel-col-first  {
+	float:left;
+	width:555px;
+}
+div.panel-2col div.panel-col-last {
+	float:left;
+	width:218px;
+	margin-top:250px;
+}
+
+div.panel-sidebar-first {
+}
+div.panel-pane div.node-doll.node-teaser, 
+div.panel-pane div.node-doll.node-teaser,
+div.panel-pane div.node-spacer.node-teaser, 
+div.panel-pane div.node-spacer.node-teaser {
+	/*width:812px;*/
+	width:178px;
+	height:281px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+
+.node-doll.node-teaser h2, .node-spacer.node-teaser h2{
+	position:absolute;
+	display:none;
+}
+.node-doll.node-teaser .field-name-field-new {
+	position:absolute;
+	color:white;
+	padding:3px;
+	top:320px;
+	left:-5px;
+}
+
+body.front #page-title { display:none; }
+
+#og-mail { left:-13px; }
+#where-to-find { left:-5px; }
+#charity {left:-5px;}
+/* ACCESSORY GRID */
+div.panel-pane .node-accessory.node-teaser.node-grid, 
+.node-accessory.node-teaser {
+	width:182px;
+	height:245px;
+	margin:0px;
+	padding:0px;
+	padding-right:10px;
+	border:0px;
+}
+
+body.node-type-game #content {
+	margin-left:0px;
+}
+
+#content{
+	margin-left:90px;
+}
+
+/*Accessory Category Grid */
+div.node-acat.node-teaser {
+	width:380px;
+	height:380px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.intro-text {
+	width:500px; 
+	padding-left:10px;
+	padding-bottom:20px;
+	font-size:13px;
+	line-height:18px;
+}
+
+.center-button a{
+	width:155px;
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	/*height:48px;*/
+	height:38px;
+	font-size:14px;
+	text-align:center;
+	background-image:url(../images/acc_over_button.png);
+	background-position: 0px -45px;
+	background-repeat:no-repeat;
+	padding-top:10px;
+}
+.center-button a:hover {
+	background-image:url(../images/acc_over_button.png);
+	background-position: 0px 2px;
+	color:#fff000;
+}
+.center-button a { 
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#block-system-user-menu, #block-user-login h2:hover {
+	cursor:hand;
+	cursor:pointer;
+}
+#login-wrapper {
+/*#block-system-user-menu, #block-user-login {*/
+	background-color:#e5adef;
+	font-family:helvetica, arial, sans-serif;
+	font-size:.8em;
+	padding:10px;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	margin:0px;
+	
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-right-radius: 20px;
+	width:160px;
+}
+#login-wrapper { display:none; }
+#login-wrapper h2 { color:#842060; font-size:22px; font-weight:900; } 
+#login-wrapper a { color:#842060; font-size:12px; font-weight:400; }
+#login-wrapper li, #login-wrapper ul { 
+	list-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+/* Hide Admin Login */
+#login-wrapper { display:none; }
+
+body.html div.messages {
+	position:absolute;
+	width:900px;
+	left:50px;
+	top:0px;
+	margin-top:0px;
+	z-index:3;
+}
+
+
+.field-name-field-section-images div { float:left; margin-right:10px; }

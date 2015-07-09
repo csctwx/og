@@ -1,0 +1,261 @@
+
+/* OG Girls */
+div.more_girls {
+	background-repeat:repeat-x;
+	background-image:url('../images/tall-felt.jpg');
+	/*height:525px;*/
+	padding-top:45px;
+}
+div.purple_felt{
+	background-image:url('../images/big-felt2.jpg');
+}
+body.node-type-og-girl-homepage #content{
+	width:100%;
+}
+body.node-type-og-girl-homepage .content-wrapper {
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.girl_wrapper {
+	padding-left:90px;
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+body.node-type-og-girl-homepage h1 {
+	position:relative;
+}
+body.node-type-og-girl-homepage div.content-inner {
+	width:100%;
+	margin-left:-90px;
+}
+div.amazing_girl {
+	float:left;
+	/*
+	width:265px;
+	height:169px;
+	*/
+	width:250px;
+	height:254px;
+	color:#fdc8e5;
+	position:relative;
+}
+div.amazing_girl div.image {
+	height:160px;
+	width:250px;
+	position:absolute;
+	top:0px;
+	left:-15px;
+}
+div.amazing_girl h3{
+	position:relative;
+	margin:0px;
+	margin-top:160px;
+	font-size:12px;
+	font-weight:900;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.description {
+	font-size:12px;
+}
+div.top-description {
+	width:723px;
+}
+div.more_amazing {
+	height:70px;
+	width:350px;
+	position:absolute;
+	left:66px;
+	bottom:-25px;
+	background-image:url(../images/oggirls-label2.png);
+	background-repeat:no-repeat;
+}
+div.amazing_girl .description {
+	height:62px;
+	overflow: hidden;
+	line-height:16px;
+	font-size:12px;
+	width:230px;
+}
+div.amazing_girl .description p{
+	margin:0px;
+}
+div.amazing_girl a, div.amazing_girl a:hover{
+	color:#f46db6;
+	text-decoration:none;
+}
+div.caption {
+	color:#f77810;
+	width:550px;
+	font-size:12px;
+	padding-bottom:53px;
+}
+div.submission-form-cloud a {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+div.submission-form-cloud {
+	position:absolute;
+	width:243px;
+	height:179px;
+	background-image:url(../images/submission-cloud.png);
+	background-position:0px 0px;
+	top:473px;
+	left:694px;
+}
+div.submission-form-cloud:hover {
+	background-position:0px -190px;
+}
+h2.subhead {
+	margin:0px;
+	font-size:29px;
+	color:#e31690;
+	font-weight:400;
+	margin-top:4px;
+}
+
+body.page-og-girls .with-navigation #content {
+	margin-top:33px;
+}
+body.page-og-girls h1 {
+	display:none;
+}
+body.page-og-girls h1.real-title {
+	display:block;
+	margin-bottom:20px;
+}
+.ogg-deco-title { 
+	height:100px;
+	width:100px;
+	position:absolute;
+	left:-120px;
+	top:-20px;
+}
+
+div.heart-it {
+	background-repeat:no-repeat;
+	background-image:url(../images/heart-it-bg.png);
+	height:120px;
+	width:426px;
+	position:relative;
+	clear: both;
+	float: left;
+	margin-left: -40px;
+}
+div.heart-it-num {
+	position:absolute;
+	top:47px;
+	color:#ffffff;
+	font-weight:400;
+	font-size:22px;
+
+	left: 41px;
+	width: 50px;
+	text-align: center;
+}
+
+div.heart-it h3 {
+	position:relative;
+	float:left;
+	font-size:19px;
+	margin:0px;
+	height: 22px;
+	padding-top:2px;
+	margin-bottom: 12px;
+	font-weight:400;
+	max-width:290px;
+	overflow:hidden;
+	color:#614785;
+}
+div.heart-it div.heart-it-button:hover {
+	cursor:pointer;
+	cursor:hand;
+} 
+div.heart-it div.heart-it-button {
+	float:left;
+	width:60px;
+	background-image:url(../images/heart-it-button.png);
+	background-repeat:no-repeat;
+	margin-left:10px;
+	margin-top:-4px;
+	height:35px;
+	width:95px;
+}
+div.heart-it div.heart-it-button:hover { background-position:0px -45px; }
+
+div.heart-it-inner {
+	position:relative;
+	margin-top:47px;
+	margin-left:100px;
+}
+
+/* OG Girls Detail */
+
+.ogg-divider {
+	background-image:url(../images/divider1.png);
+	background-repeat:no-repeat;
+	width:903px;
+	height:26px;
+	margin-left:-50px;
+	position:relative;
+}
+.ogg-intro {
+	font-size:15px;
+	color:#db2653;
+	font-family:Arial, Helvetica, sans-serif;
+	width:650px;
+	margin-left:8px;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height:24px;
+}
+.ogg-body {
+	font-size:13px;
+	color:#ee6539;
+	margin-left:204px;
+	width:488px;
+	position:relative;
+}
+
+.ogg-fg-2 {
+	background-image:url('../images/ogg-deco2.png');
+	width:76px;
+	height:82px;
+	top:380px;
+	left:-33px;
+}
+.ogg-fg-3 {
+	background-image:url('../images/ogg-deco3.png');
+	width:158px;
+	height:163px;
+	top:-72px;
+	left:630px;
+}
+.ogg-fg-4 {
+	background-image:url('../images/ogg-deco4.png');
+	width:209px;
+	height:240px;
+	top: -20px;
+	left: -238px;
+}
+.ogg-bg-1 {
+	background-image:url('../images/ogg-deco-cloud.png');
+	width:215px;
+	height:233px;
+	top:262px;
+	left:610px;
+	z-index:0;
+}
+.ogg-image {
+	position:relative;
+}
+
+/*
+heart-it-bg.png
+ogg-deco3.png
+ogg-deco2.png
+ogg-deco-cloud.png
+*/
+

@@ -1,0 +1,37 @@
+/* CONTACT */
+div.node-contact-info {
+	float:left;
+	width:162px;
+	padding-right:20px;
+	position:relative;
+	font-size:13px;
+}
+
+div.views-field-field-decoration-image {
+	position:absolute;
+	top:-70px;
+	left:-200px;
+}
+
+body.page-contact h2 {
+	background-image:url(../images/contact-ribbon-title.png);
+	background-repeat:no-repeat;
+	height:30px;
+	padding-top:5px;
+	padding-left:12px;
+	font-size:14px;
+	font-weight:400;
+	margin-bottom:4px;
+}
+p.contact-info {
+margin-left: 10px;
+}
+body.page-contact div.field-items {
+	margin-left:6px;
+}
+body.page-contact div.field-name-field-address div.field-items {
+	margin-left:11px;
+}
+body.page-contact #content {
+	margin-top:40px;
+}

@@ -1,0 +1,127 @@
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer 7 (and earlier) for Windows.
+ *
+ * Any CSS in this file will apply to all versions of IE before IE 8. You can
+ * target specific versions of IE by using conditional comments. See your
+ * sub-theme's .info file for an easy way to use them.
+ */
+
+
+/*
+ * Tabs
+ */
+
+ul.primary li a,
+ul.primary li a .tab,
+ul.secondary li a,
+ul.secondary li a .tab {
+  cursor: pointer;
+}
+
+/*
+ * Drupal nodes
+ */
+
+.node-unpublished>*,
+.comment-unpublished>* {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+.searchInput{
+	font-size: 10px;
+	padding:3px;
+	width:215px;
+}
+/*
+ * Drupal admin tables
+ */
+tr.even th,
+tr.even td,
+tr.odd th,
+tr.odd td {
+  border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
+}
+
+
+body.node-type-homepage div#content-wrapper{
+	
+	min-height: 550px;
+    height:550px !important;
+}
+
+#navigation ul.menu li ul.menu li{  
+  	background-color:transparent;
+	list-style-image:none;
+}
+
+#block-search-form {
+	margin-top:7px;
+}
+
+body.node-type-doll #content {
+	margin-left:90px;
+}
+
+body.node-type-doll div.deluxe-wrapper {
+	margin-left:600px;
+	margin-top:60px;
+}
+
+body.section-dolls #sb-nav-close {
+	background-image:url(../images/pop-close.gif);
+}
+
+div.doll-right h2.secondary-header {
+	margin-top:20px;
+}
+
+div.doll-right div.text {
+}
+li.expanded ul.menu li{
+	overflow: visible;
+}
+li.expanded ul.menu a{
+	margin-top:-2px;
+	padding-bottom:5px;
+}
+
+div.accessory-center{
+	margin-left: 0;
+	margin-top: 0;
+	}
+
+div.accessory-right {
+	top: -15px;
+	}
+	
+div.accessory-right h2.secondary-header{
+	margin-top: 0;
+	}
+
+div.home-cloud {
+	z-index: -1;
+}
+div.home-rotate {
+	z-index: -1;
+}
+div.o-stripe {
+	z-index: -2;
+}
+div.home-our {
+	z-index: 50;
+}
+.home-cloud a span {
+	display: none;
+}
+
+#clipboarddiv a {
+	display:none;
+}
+#navigation a {
+	font-weight:bold;
+  width: 100%;
+filter: dropshadow(color=#BE4286,offX=1,offY=2);
+}
+.infocloud {
+	font-weight:bold;
+}

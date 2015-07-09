@@ -1,0 +1,108 @@
+
+/* 
+
+########  ########  ########  ######   ######  
+##     ## ##     ## ##       ##    ## ##    ## 
+##     ## ##     ## ##       ##       ##       
+########  ########  ######    ######   ######  
+##        ##   ##   ##             ##       ## 
+##        ##    ##  ##       ##    ## ##    ## 
+##        ##     ## ########  ######   ######  
+
+*/
+
+.node-type-news-item h1#page-title { display: none }
+.node-type-email h1#page-title {display:none}
+
+.press-image { 
+	width:264px;
+	height:150px;
+	float:left;
+	background-image:url(../images/press_felt.png);
+	background-repeat:no-repeat;
+}
+
+.press-subnav {
+	list-style: none;
+	height:55px;
+	width:800px;
+	background-image: url(../images/press_subnav_bg.png);
+	background-repeat: no-repeat;
+	font-size:16px;
+	padding-left:130px;
+	margin-left:-132px;
+}
+.press-subnav a {
+	text-decoration:none;
+	color: #763986;
+	text-shadow: 0px -1px 4px #c88538;
+	filter: dropshadow(color=#c88538, offx=0, offy=-2);
+}
+
+body.page-press-news-paper .press-subnav a.active, 
+body.page-press-magazine .press-subnav a.active, 
+body.page-press-radio .press-subnav a.active, 
+body.page-press-television .press-subnav a.active, 
+body.page-press-webpage .press-subnav a.active { 
+	text-shadow: 0px -1px 4px #ffe9bc;
+	filter: dropshadow(color=#ffe9bc, offx=0, offy=-2);
+	text-decoration:none;
+	color: #0d8593;
+}
+
+.press-subnav a:hover, .press-subnav a.active {
+	color: #763986;
+	text-shadow: 0px -1px 4px #c88538;
+	filter: dropshadow(color=#c88538, offx=0, offy=-2);
+}
+
+
+.press-subnav li {
+	float:left;
+	margin-top:15px;
+	margin-right:20px;
+	
+}
+.press-image img{ 
+	margin-left:18px;
+	margin-top:12px;
+	-webkit-box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, .45);
+	-moz-box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, .45);
+	box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, .45);
+}
+.press-content h2 {
+	margin-bottom:0px;
+	margin-top:2px;
+}
+.press-content h2 a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c41968;
+	text-decoration:none;
+	font-weight:900;
+	font-size:15px;
+}
+ 
+
+body.section-press div.view-display-id-page_press {
+
+}
+.read-more a{
+	font-weight:900;
+	font-style:italic;
+	padding-left:0px;
+	text-decoration:none;
+	color: #c41968;
+}
+.press-content { 
+	width:525px;
+	float:left;
+	font-size:12px;
+	color:#842060;
+	margin-left:5px;
+	width:420px;
+}
+.press-content p { margin:0px; line-height:16px; }
+.press-content .meta { 
+	font-weight:900;
+	font-style:italic;
+}

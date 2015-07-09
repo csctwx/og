@@ -1,0 +1,18 @@
+div.html5gallery-tn-img-play-0{
+	display: none !important;
+}
+
+a[href="http://html5box.com/html5gallery/watermark.php"]{
+	display: none;
+}
+
+body.page-video-gallery #content{
+	margin: 0;
+	margin-top: 180px;
+  	margin-left: -5px;
+}
+
+div.content-inner {
+	background: url('../images/video/video-frame-clouds.png') no-repeat;
+	width: 1440px;
+}

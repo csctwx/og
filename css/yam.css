@@ -1,0 +1,367 @@
+/* added by tony for hte you and me */
+div.yam-title .deco{ 
+	position:absolute; 
+	left:176px;
+	top:88px;
+}
+div.yam-title {
+	position:relative;
+	margin-top:70px;
+	margin-right:0px;
+}
+div.yam-title.acc-title {
+	margin-top: 121px;
+}
+div.yam-title h3 {
+	margin:0px;
+	margin-top:5px;
+	font-size:25px;
+	line-height:27px;
+	font-weight:400;
+	width:220px;
+}
+div.yam-title h2, div.pink-sub h2 {
+	font-size:24px;
+	font-weight:400;
+	position:absolute;
+	top:-45px;
+	color:#e05997;
+}
+
+
+div.yam-left div.text p {
+	margin-bottom:0px;
+}
+div.yam-left div.text {
+	position:relative;
+	width:220px;
+	margin-top:12px;
+	margin-left:3px;
+	margin-bottom:0px;
+}
+a.readmore-text {
+	text-decoration:underline;
+}
+body.section-dolls div.text {
+	font-size:12px;
+	line-height:20px;
+}
+div.yam-left div.text img{
+	position:relative;
+	display:block;
+	text-align:right;
+	margin-top:10px;
+	float:right;
+}
+div.yam-left div.link-heart {
+	position:absolute;
+	left:-10px;
+	top:10px;
+}
+div.yam-left div.doll-heart {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+div.yam-left div.doll-add-heart {
+	position:absolute;
+	left:90px;
+	top:52px;
+	height:140px;
+	width:180px;
+	background-image:url(../images/doll-wall-link.png);
+	background-repeat:none;
+	background-position:0px 0px;
+}
+div.yam-left div.doll-add-heart a{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:140px;
+	width:180px;
+}
+div.yam-left div.doll-add-heart:hover {
+	background-position:0px -151px;
+}
+div.heart-links a{
+	text-decoration:none;
+}
+body.node-type-you-an-me-product div.heart-links {
+	height:215px;
+	position:relative;
+	margin-top:15px;
+	margin-left:-60px;
+}
+div.yam-left {
+	position:relative;
+	float:left;
+	width:280px;
+}
+
+
+div.related-yam-box-wrapper {
+	margin-left: 0px;
+	width:970px;
+	float:left;
+}
+
+div.yam-related  h3 {
+	right:502px;
+	top:0px;
+	position:absolute;
+	color:white;
+}
+	
+div.yam-related div.deco {
+	float:left;
+	height:180px;
+	width:102px;
+	background-position:0px -40px;
+}
+
+
+/* below this line it is added by tony  Feb14 2014*/
+
+div.yam-center-content {
+	position:relative;
+	width:970px;
+	height:630px;
+	padding-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: coquette,sans-serif;
+}
+div.yam-deco-image {
+	position:relative;
+	top:-20px;
+	left:-130px;	
+	
+}
+div.yam-primary-image {
+	position:relative;
+	top:-200px;
+	left:70px;
+}
+	
+div.yam-subtitle {
+    position:absolute;
+	font-size: 35px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    line-height: 62px;
+    margin-bottom: 0;
+    margin-top: 20px;
+	top:5px;
+	left:20px;
+}
+
+div.yam-description {
+	position:absolute;
+	top:80px;
+	left:20px;	
+	font-size:16px;
+	letter-spacing: 0px;
+	text-indent: 10px;
+	margin-bottom: 0;
+    margin-left: 3px;
+    margin-top: 20px;
+    width: 220px;
+	line-height: 20px;
+	height:200px;
+}	
+
+h2.yam-here-all-stuff {
+	position:absolute;
+	top:600px;
+	left:275px;
+	text-align: center;
+    color: #E05997;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 12px 0 5px;
+}
+
+div.yam-sec-desc {
+	position:absolute;
+	top:650px;
+	left:200px;	
+	font-size:14px;
+	letter-spacing: 0px;
+	text-align: center;
+	line-height: 20px;
+	width: 520px;
+}	
+
+div.yam-where-buy {
+    left: 29px;
+    position: absolute;
+    top: 530px;
+    width: 70px;
+	font-family: coquette,arial;
+	font-size:14px;
+	color: white;
+}
+
+a:link    {color:white;}
+a:visited {color:yellow;}
+a:hover   {color:yellow;}
+a:active  {color:yellow;}
+
+div.yam-wheretobuy {
+	position: absolute;
+	left: 15px;
+	top: 370px;
+
+}
+
+img.buy-yam-where{
+	position:absolute;
+	left:-20px;
+	top:520px;
+}	
+div.yam_flippy {
+	position:absolute;
+	top:500px;
+}
+	
+div.yam-comeswith {
+	position:relative;
+	top:-300px;
+	left:675px;
+	overflow: auto;
+
+	width:300px;
+}
+div.yam-comeswithbanner {
+	position:relative;
+	top:-330px;
+	left:655px;
+
+}
+
+
+
+div.yam-related div.deco.last {
+	right:112px;
+	top:500px;
+	position:absolute;
+	background-image:url('../images/heart_bot-2.png');
+}
+div.yam-related div.deco.first {
+	left:50px;
+	top:50px;
+	position:absolute;
+	background-image:url('../images/heart_bot-1.png');
+}
+body.node-type-you_and_me_product #top-ribbon, 
+div.top-orange-ribbon {
+  height:40px; 
+  position:absolute; 
+  top:-40px;
+  left:-500px; 
+  width:200%; 
+  background-color:orange; 
+  background:url('../images/doll-ribbon.png') repeat-x scroll 0 -0px;
+  
+}
+div.top-orange-ribbon {
+	margin-left:-10px;
+}
+div.yam-related {
+	background:purple;
+	padding-top:10px;
+	height:220px;
+	position:relative;
+	top:-80px;
+	margin-left:-200px;
+	background-image:url("../images/doll-bot-bg.jpg");
+	background-repeat:repeat-x;
+}
+div.yam-related-prod{
+	position:absolute;
+	top: 735px;
+	left:300px;
+	z-index:5;
+	}
+div.block-views{
+	position:absolute;
+	top:750px;
+	left:120px;
+}
+
+  .older_post
+  {
+    float:left;
+  }
+  .newer_post
+  {
+    text-align:right;
+  }
+
+
+/* this part is for voting */
+div.yam-five-star-wrapper active {
+	position:relative;
+	right:37px;
+	top:300px;
+}
+div.yam-rating {
+	position:absolute;
+	top:250px;
+	right:115px;
+}
+
+div.five-star-wrapper .ajax-progress {
+	display:none;
+	position:absolute;
+	top:25px;
+	width:200px;
+}
+img.rating-yam-label {
+	position:absolute;
+	right:90px;
+	top:277px;
+}
+img.default-yam-insignia {
+	position:absolute;
+	right:220px;
+	top:270px;
+}
+
+
+/* 404 */
+.error-404 {
+	position: relative;
+}
+.error-404 img {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.error-404 a {
+	position: absolute;
+	top: 344px;
+	left: 274px;	
+	display: block;
+	width: 240px;
+	height: 60px;
+	background-image: url(/sites/all/themes/og/images/404-home_button_sprite.png);
+}
+.error-404 a:hover {
+	background: url(/sites/all/themes/og/images/404-home_button_sprite.png) 0 62px;
+}
+.error-404 a span {
+	display: none;
+}
+.error-404 .bird {
+	position: absolute;
+	top: 365px;
+	left: 437px;	
+}
+
+/* Hide pager */
+body.page-og-girls .pager {
+	display:none;
+}
+

@@ -1,0 +1,283 @@
+<div class="bg mail-deco-title"></div>
+<div class="bg mail-bg1"></div>
+<div class="bg mail-bg2"></div>
+
+
+<div id="mc_embed_signup">
+
+<!--<form action="http://stayhonest.us2.list-manage1.com/subscribe/post?u=199a36013c0411d7c354baaac&amp;id=8a9243287f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">-->
+<form id="signup" action="<?=$_SERVER['PHP_SELF']; ?>" method="get">
+
+
+	<?php
+		//echo "REQUIRE";
+		require_once('ajax/mailchimp/inc/store-address.php'); 
+		if($_GET['submit']){ echo storeAddress(); } 
+	?>
+	
+
+	<div class="form-wrapper clear">
+		<div class="mc-field-group">
+			<div class="mail-status"><span id="status-email">Please check your email address.</span></div>
+			<label for="mce-EMAIL" class="curly form-label">Enter email:</label>
+			<div class="field-wrapper"><input type="email" value="" name="EMAIL" placeholder="enter your email" class="required email cf" id="mce-EMAIL"></div>
+		</div>
+		<div style='clear:both'></div>
+		<div class="mc-field-group mailhalf">
+			<div class="mail-status"><span id="status-fname">Please enter your first name.</span></div>
+			<label for="mce-FNAME" class="curly form-label">First name:</label>
+			<div class="field-wrapper"><input type="text" value="" name="FNAME"  placeholder="first name" class="" id="mce-FNAME"></div>
+		</div>
+		<div class="mc-field-group mailhalf">
+			<div class="mail-status"><span id="status-lname">Please enter your last name.</span></div>
+			<label for="mce-LNAME" class="curly form-label">Last name:</label>
+			<div class="field-wrapper"><input type="text" value="" name="LNAME" placeholder="last name"  class="" id="mce-LNAME"></div>
+		</div>
+		<div class="mc-field-group mailhalf">
+
+			<div class="mail-status"><span id="status-date">Please enter a birthday.</span></div>
+			<label class="curly form-label">Birthday:</label>
+			<div class="field-wrapper">
+			<div class="datefield" id="MERGE4">
+				<input type="text" pattern="[0-9]*" placeholder="MM" size="2" maxlength="2" name="MMERGE4[month]" id="mce-MMERGE4-month">
+				<input type="text" pattern="[0-9]*" placeholder="DD"  size="2" maxlength="2" name="MMERGE4[day]" id="mce-MMERGE4-day">
+				<input type="text" pattern="[0-9]*" placeholder="YYYY"  size="4" maxlength="4" name="MMERGE4[year]" id="mce-MMERGE4-year">
+				<div class="fake-date"><input type="hidden" class="date" id="MMERGE4-fake-date"></div>
+			</div>
+			</div>
+		</div>
+		<div class="mc-field-group">
+			<div class="mail-status"><span id="status-add1">Please check your address.</span></div>
+			<label for="mce-ADDRESS1" class="curly form-label">Address:</label>
+			<div class="field-wrapper"><input type="text" value="" name="ADDRESS1" placeholder="enter your address" class="" id="mce-ADDRESS1"></div>
+		
+		</div>
+		<div class="mc-field-group">
+			<div class="mail-status"><span id="status-add2">Please check your address.</span></div>
+			<label for="mce-ADDRESS2" class="curly form-label">Address 2:</label>
+			<div class="field-wrapper"><input type="text" value="" name="ADDRESS2" placeholder="enter your address" class="" id="mce-ADDRESS2"></div>
+		
+		</div>
+		<div style='clear:both'></div>
+		<div class="mc-field-group mailhalf">
+			<div class="mail-status"><span id="status-city">Please check your city.</span></div>
+			<label for="mce-CITY" class="curly form-label">City:</label>
+			<div class="field-wrapper"><input type="text" value="" name="CITY"  placeholder="city" class="" id="mce-CITY"></div>
+		</div>
+		<div class="mc-field-group mailhalf">
+			<div class="mail-status"><span id="status-state">Please enter your state.</span></div>
+			<label for="mce-STATE" class="curly form-label">State:</label>
+			<div class="field-wrapper"><input type="text" value="" name="STATE" placeholder="state"  class="" id="mce-STATE"></div>
+		</div>
+		<div class="mc-field-group mailhalf">
+			<div class="mail-status"><span id="status-zip">Please check your zip code.</span></div>
+			<label for="mce-ZIP" class="curly form-label">Zip:</label>
+			<div class="field-wrapper"><input type="text" value="" name="ZIP"  placeholder="zip" class="" id="mce-ZIP"></div>
+		</div>
+		<div class="mc-field-group input-group terms-wrapper clear">
+			<div class="mail-status"><span id="status-terms">Terms and conditions</span></div>
+			<input type="checkbox" value="1" name="group[2281][1]" id="mce-group[2281][1]" class="termscheckbox">
+			I have read and agree to the <a href="/pages/terms">Terms and Conditions</a> and <a href="/pages/privary-policy">Privacy Policy.</a>
+		</div>
+	</div>
+
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	
+
+	<div class="clear submit-wrapper">
+		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe curly">
+	</div>
+</form>
+
+</div> <!-- /mc_embed_signup -->
+
+<!--End mc_embed_signup-->
+
+<script>
+
+
+var ageFailMsg;
+
+jQuery(document).ready( function($) {
+
+	
+	//ageFailMsg = "Pleas have your parents sign up";
+	
+	function ageGateFail(){
+		//if(typeof ageFailMsg == "undefined"){
+			ageFailMsg = "<div class='curly mail-thanks'>Sorry, you're not old enough to receive emails from Our Generation.</div>";
+		//}
+		$('div.mc-field-group').hide();
+		$('div.form-wrapper').html("<span class='big-fail'>" + ageFailMsg + "</span>");
+	}
+	
+	// Make sure submitter is 13 or over
+	function ageGateEvaluate(_m,_d,_y){
+		var passedGate = false;
+		var submitted_date = new Date(_y, _m, _d); 
+		var todays_date = new Date();			
+		var test_date = todays_date;
+		test_date.setYear(test_date.getYear() - 13);
+		
+		// Respond to Age Fail
+		if (submitted_date > test_date) {												
+			passedGate = false;
+		} else {
+			passedGate = true;
+		}
+		
+		return passedGate;
+		
+	}
+	
+	// Make sure its a valid address
+	function verifyEmail(_email){
+		var status = false;     
+		
+		var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+		if(reg.test(_email)){ 
+			status = true;
+		} else {
+			//$("#status-email").html("Please enter a valid email");
+		}
+		
+		 return status;
+	}
+
+	// Init pass/fail used as final verify value
+	var pass;
+	
+	// Invalidate our pass value
+	function nopass(){ log("nopass"); pass = false; }
+	
+	
+	$("input.subscribe").click(function(e) {
+		e.preventDefault();
+		pass = true;
+		
+		// Get Field Values
+		var _fe = $("#mce-EMAIL").val();
+		var _ffn = $("#mce-FNAME").val();
+		var _fln = $("#mce-LNAME").val();
+		
+		var em = $("#mce-MMERGE4-month").val();
+		var ed = $("#mce-MMERGE4-day").val();
+		var ey = $("#mce-MMERGE4-year").val();
+		
+		
+		// Evaluate Field Lengths
+		if ( _fe.length < 2){ 
+			$("#status-email").show(); nopass();
+		}  else {
+			$("#status-email").hide();
+		}
+		
+		if ( _ffn.length < 2){
+			$("#status-fname").show(); nopass();
+		} else {
+			$("#status-fname").hide();
+		}
+		
+		if ( _fln.length < 2){
+			$("#status-lname").show(); nopass();
+		} else {
+			$("#status-lname").hide();
+		}
+		
+		// Make sure they are #s
+		if ( em.length < 1 ||  ed.length < 1 || ey < 4){ 
+			$("#status-date").show(); nopass() 
+		} else {
+			$("#status-date").hide();
+		};
+		
+		// Make sure they are #s
+		if ( em.length < 1 ||  ed.length < 1 || ey < 4){ 
+			$("#status-date").show(); nopass() 
+		} else {
+			$("#status-date").hide();
+		};
+		
+		
+		
+		//alert(typeof(em));
+		// Check if the month is > 12 or the day > 31
+		if ( em > 12 || ed > 31 || em < 1 || ed < 1 || ey < 1896 ){ 
+			$("#status-date").show(); nopass() 
+		} else {
+			$("#status-date").hide();
+		};
+		
+		
+		
+		// Validate Email
+		if (verifyEmail(_fe) == false){ $("#status-email").show(); nopass(); }
+		
+		
+		// Check Age
+		if (ageGateEvaluate(em,ed,ey)){
+			log("Age Gate Pass: Keep going");
+			
+			// Evaluate Terms
+			if ($('.termscheckbox:checked').val() !== undefined) {
+				log("Checked " + pass);
+			} else {
+				alert("You must agree to the Terms and Conditions and check the box before proceeding.");
+				log("Not Checked");
+				$("#status-terms").show();
+				nopass();
+			}
+			
+		} else {
+			log("Age Gate Fail: Stop");
+			ageGateFail(); nopass();
+		}
+		
+		//pass = true;
+		
+		// Final Validation
+		if (pass == true){
+
+			//'1907-07-07' //Date format
+			
+			// TODO: Get the Terms checkbox mce-group[2281][1]
+			var MMERGE4_data = $("#mce-MMERGE4-year").val() + "-" + $("#mce-MMERGE4-month").val() + "-" + $("#mce-MMERGE4-day").val();
+			log(MMERGE4_data);
+			mailData = "ajax=true&email="  + $("#mce-EMAIL").val() +  "&FNAME=" + $("#mce-FNAME").val() + "&LNAME=" + $("#mce-LNAME").val() + "&ADDRESS1=" + $("#mce-ADDRESS1").val() + "&ADDRESS2=" + $("#mce-ADDRESS2").val() + "&CITY=" + $("#mce-CITY").val() + "&STATE=" + $("#mce-STATE").val() + "&ZIP=" + $("#mce-ZIP").val() + "&MMERGE4=" + MMERGE4_data + "&TERMS=" + $("#mce-group[2281][1]").val();
+			console.log(mailData);
+			log(mailData);
+			//$('#signup').submit(function() {
+				// update user interface
+				log('Adding email address...');
+				$("#mc-embedded-subscribe").val("Sending...");
+				$(".submit-wrapper").fadeTo('slow', 0.5);
+				// Prepare query string and send AJAX request
+				//data: 'ajax=true&email=' + escape($('#email').val()),
+				
+				$.ajax({
+					url: '/ajax/mailchimp/inc/store-address.php',
+					data: mailData,
+					success: function(msg) {
+						log("MSG: "+msg);
+						if (msg == "new"){
+							$('#signup').html('<div class="curly mail-thanks">Thank you. Look for a confirmation email from us soon!</div>');
+						} else {
+							$('#signup').html('<div class="curly mail-thanks">' + msg + '</div>');						
+						}
+					},
+					error:function(xhr,err){
+						//alert("readyState: "+xhr.readyState+"\nstatus: "+xhr.status);
+						//alert("responseText: "+xhr.responseText);
+						$('#signup').html('<div class="curly mail-thanks">There was a little problem... ' + err + '</div>');
+					}
+				});
+			
+		}
+		
+	});
+	
+});
+
+</script>

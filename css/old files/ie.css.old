@@ -1,0 +1,15 @@
+a.trans-link {
+	/*
+	background-image:url(../images/clear.gif);
+	background-color:yellow;
+	*/
+}
+#navigation a {
+	font-weight:bold;
+  width: 100%;
+filter: dropshadow(color=#BE4286,offX=1,offY=2);
+}
+
+.infoCloud { 
+	font-weight:bold;
+}

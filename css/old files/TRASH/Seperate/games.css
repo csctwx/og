@@ -1,0 +1,63 @@
+
+/*
+
+ ######      ###    ##     ## ########  ######  
+##    ##    ## ##   ###   ### ##       ##    ## 
+##         ##   ##  #### #### ##       ##       
+##   #### ##     ## ## ### ## ######    ######  
+##    ##  ######### ##     ## ##             ## 
+##    ##  ##     ## ##     ## ##       ##    ## 
+ ######   ##     ## ##     ## ########  ######      */
+
+
+/* Specific overrides for Flash page */
+body.node-type-game .content-inner #content { width:100%; position:relative;}
+
+
+.content-wrapper, #content-wrapper { height:100%; overflow:hidden;}
+.content-inner {
+	height:100%;
+	min-height:600px;
+	position:relative;
+}
+
+body.node-type-game .content-inner {
+	width:100%;
+}
+
+/* Height for Mix and Match */
+body.node-type-game #game-targ, body.node-type-game #flashContent {
+	height:920px;
+}
+body.node-type-game.page-node-41 #game-targ, body.node-type-game.page-node-41 #flashContent {
+	height:685px;
+}
+
+.fun-bg-title{
+	top:0px;
+	left:-170px;
+	height:153px;
+	width:161px;
+	background-image:url("../images/game_title1.png");
+}
+.fun-bg1{
+	top: 165px;
+	left: -108px;
+	height: 200px;
+	width: 200px;
+	background-image:url("../images/game_deco1.png");
+}
+.fun-bg2{
+	top: -9px;
+	right: 40px;
+	height: 290px;
+	width: 375px;
+	background-image:url("../images/game_deco2.png");
+}
+.fun-bg3{
+	top: 656px;
+	left: -251px;
+	height: 355px;
+	width: 348px;
+	background-image:url("../images/game_deco3.png");
+}

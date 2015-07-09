@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Views Styling
+ */
+.title-color {
+	*color:#912f6c;
+	color:#ff69b4;
+	*color:#ffffff;
+	width:250px;
+	text-align: center;
+	*padding: 2px;
+	*margin-top: 20px;
+	*background-image:url(../images/nav_dots.png);
+	*background-repeat:no-repeat;
+	*background-color:ff69b4;
+}
+
+input {
+ background-color:#ff6ca8;
+ text-transform:uppercase;
+  height:20px;
+ * position:relative;
+  *float:right;
+  *display:block;
+  width:75px;
+
+}

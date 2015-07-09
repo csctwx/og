@@ -1,0 +1,633 @@
+
+body {
+	font-family:arial, helvetica, sans-serif;
+}
+
+
+
+/* MAIL PAGE STYLES */
+
+/* Specific Mail Page Layout */
+.pane-block-6 .pane-content, .page-page-emails .panel-col-top .pane-content {
+	width:560px;
+	font-size: 13px;
+}
+.page-page-emails .panel-col-first {
+	width:308px;
+}
+.page-page-emails .panel-col-last {
+	margin-top:100px;
+}
+
+body.html #mc_embed_signup {
+	position:relative;
+	background-repeat:no-repeat;
+	background-image:url('../images/mail-form-bg.png');
+	background-position: 0px 50px;
+	width:557px;
+	height: 580px;
+	margin-left:-15px;
+	color:white;
+}
+
+body.html #mc_embed_signup form{
+	position:absolute;
+	left: 8px;
+	top: 50px;
+	overflow: visible;
+}
+
+
+
+/* General Form Styles */
+input::-webkit-input-placeholder {
+    color:    #5d296b;
+}
+input:-moz-placeholder {
+    color:    #5d296b;
+}
+input.termscheckbox {
+	width:80px;
+}
+.datefield input {
+	margin:0px;
+	width:30px;
+}
+
+.conf-message a{
+	color:#ffffff;
+}
+.conf-message {
+	width:380px;
+	margin-left:60px;
+	color:white;
+	font-size:14px;
+	font-weight:200;
+	line-height:19px
+	
+	margin-top:50px;
+	height:320px;
+}
+.conf-text {
+	font-size:13px;
+	width:520px;
+	padding-left:2px;
+	margin-top:-10px;
+}
+.conf-intro p{ margin-bottom:8px; padding-top:0px; margin-top:0px; padding-top:0px; }
+
+label.right {
+	text-align:right;
+	width:75px;
+}
+.field-set.half {
+	width:220px;
+	float:left;
+}
+
+#conf-form .field-set.half {
+	/*width:270px;*/
+	width: 270px;
+	float:left;
+}
+
+#conf-form .field-set.half.more-margin {
+	margin-left: 20px;
+}
+
+.field-set.half .field-wrapper{
+	/*width:123px;*/
+	/*width: 115px;*/
+}
+
+div.half input {width: 120px}
+
+.field-set.full {
+	width:400px;
+	/*padding:4px;*/
+	clear:both;
+}
+
+#conf-form .field-set.full {
+	width: 500px;
+}
+
+.field-set.full input{
+	width:288px;
+}
+
+.ogform {
+	width:525px;
+}
+
+.ogform.confirm {
+	/*width:565px;*/
+	width: 585px;
+}
+
+.confirm-wrapper {
+	background-image:url(../images/confirm-bg.png);
+	background-repeat:no-repeat;
+	width:721px;
+	height:514px;
+	margin-left:-75px;
+	position:relative;
+}
+.confirm-wrapper {
+	margin-top:-25px;
+}
+.confirm-wrapper iframe {
+	position:absolute;
+	top:40px;
+	left:83px;
+}
+
+body.iframe-inner {
+	background-color: transparent;
+	}
+	
+.conf-bg1 {
+	background-image:url(../images/confirm-deco.png);
+	top:0px;
+	left:-60px;
+	height:180px;
+	width:130px;
+	background-repeat:no-repeat;
+}
+
+/* Button Style */
+.ogform input.button, .button {
+	background-color:transparent;
+	border-width:0px;
+	font-size:17px;
+	height:44px;
+	width:128px;
+	color:#ffffff;
+	background-image:url(../images/mail-button.png);
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+	position:relative;
+	margin-left:80px;
+	margin-top:20px;
+}
+
+body.html #mc_embed_signup input.subscribe {
+	background-color:transparent;
+	border-width:0px;
+	font-size:17px;
+	height:44px;
+	width:128px;
+	color:#ffffff;
+	background-image:url(../images/mail-button.png);
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+	position:relative;
+	/*margin-left:420px;*/
+	margin-top:0px;
+}
+
+.button {
+	font-weight:400;
+}
+.button:hover {
+	text-decoration: none;
+}
+
+.button2 {
+	background-image:url(../images/button2.png);
+	width:210px;
+}
+.button.right-btn {
+	margin-right: 60px;
+}
+.ogform .button.btn-last {
+	margin-left:10px;
+}
+.ogform .button, .button {
+	float:right;
+	margin-left:0px;
+	margin-right:0px;
+	text-decoration:0px;
+}
+a.button2 {
+	width:210px;
+	text-align:center;
+}
+a.button2 {
+	text-decoration:none;
+	padding-top:12px;
+	padding-left:0px;
+}
+
+div.button-holder {width: 585px; position:relative; background-color: transparent; text-align:right;}
+
+div.conf-success p.confirmation-buttons a.button {
+	float: left;
+	clear:both;
+	}
+	
+
+.button:hover, 
+.ogform input.button:hover, 
+body.html #mc_embed_signup input.subscribe:hover {
+	color:#fff000;
+	background-position:0px -46px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.ogform .status, 
+#mc_embed_signup .status { height:30px; }
+
+.form-label {
+	font-weight:400;
+	font-size:18px;
+	margin:0px;
+	margin-top:5px;
+}
+
+.ogform label.plain-label, 
+body.html #mc_embed_signup label.plain-label {
+	font-weight:100;
+	font-size:12px;
+	position:relative;
+	display:block;
+	float:right;
+	width:190px;
+}
+
+.ogform input, 
+body.html #mc_embed_signup input{
+	background-color:#f19bc1;
+	border:1px solid #5d296b;
+	color:#5d296b;
+}
+body.html .datefield .subfield { 
+	display:inline;
+}
+
+.ogform .field-group, 
+body.html #mc_embed_signup .mc-field-group input {
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.ogform .field-wrapper, 
+.search-field-wrapper, 
+body.html #mc_embed_signup .field-wrapper {
+	border:1px dashed #c67dc1;
+	padding:4px;
+	padding-top:1px;
+	padding-bottom:1px;
+	/*padding-right:6px*/;
+}
+
+#mc_embed_signup .form-wrapper {
+	width:547px;
+	padding:47px 47px 25px 47px;
+	margin-top:10px;
+	/*height: 277px;*/
+	overflow: visible;
+}
+
+.terms-wrapper {
+	font-size:10px;
+	line-height:13px;
+	color: #ffffff; 
+	margin-left:80px;
+	width:500px;
+}
+.terms-wrapper a {
+	color: #ff5da7; 
+}
+
+div.mail-status { 
+	height:18px; 
+	text-align:right;
+	font-size:12px;
+	font-weight:900;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fdc92b;
+	padding-top:2px;
+}
+
+.mc-field-group .mail-status {width: 389px;} /*for email full field status message*/
+.mc-field-group.input-group .mail-status {width: 352px;} /*for terms status message */
+.mc-field-group.mailhalf .mail-status {width: 228px;} /*for other, half-field status messages*/
+
+div.mail-status.left {
+	margin-left:80px;
+	text-align:right;
+}
+
+div.mail-status.left.lefthalf {margin-left: 28px}
+
+div.mail-status.conf {
+	width:180px;
+}
+ 
+
+div.mail-status span {
+	display:none;
+}
+.field-wrapper, .datefield {
+	position:relative;
+}
+
+div.mail-deco-title { 
+	left: -183px;
+	top: -143px;
+	background-image:url(../images/mail-deco-title.png); 
+	height:171px;
+	width:171px;
+}
+div.mail-bg1 { 
+	background-image:url(../images/mail-deco-1.png);  
+	height:145px;
+	width:175px; 
+	top: -211px;
+	left: 573px;
+	display:none;
+	/* EIE: Turn display back on when there are archives */
+}
+div.mail-bg2 { left:-80px; top:250px; background-image:url(../images/mail-cloud.png); height:268px; width:344px; }
+
+.ogform .terms-wrapper a, 
+div.pane-email-signup-pane-email .terms-wrapper a { color: #ff5da7; }
+
+.ogform .field-wrapper
+{ margin-left:80px; }
+
+#conf-form .full .field-wrapper { float: left; margin-left: 0px;}
+#conf-form .half .field-wrapper { float: left; margin-left: 0px;}
+/*#conf-form .full .field-wrapper.long-label { margin-top: 11px;}*/
+
+div.pane-email-signup-pane-email .field-wrapper {float: left; margin-left: 0px;}
+
+.ogform .form-label, 
+div.pane-email-signup-pane-email .form-label 
+{ color:#f19bc1; font-size:15px; float:left; width: 75px; text-align: right; margin-right: 10px;}
+
+#conf-form label {width: 125px; text-align: right; float: left; margin-right: 10px; top: -11px}
+#conf-form .half label.halfr {width: 70px; text-align: right; float: left; margin-right: 10px;}
+.ogform .form-label.long {width: 125px; position: relative; }
+.ogform .field-set.offset {top: -11px; position: relative;}
+
+.ogform .date-field,  
+div.pane-email-signup-pane-email .date-field 
+{ position:relative; height:25px;  }
+
+.ogform div.field-wrapper div.datefield input, 
+div.pane-email-signup-pane-email div.mc-field-group div.field-wrapper div.datefield input 
+{ position:absolute; width:37px; }
+
+div.pane-email-signup-pane-email div.datefield 
+{ height:24px; position:relative; padding:0px; margin:0px; }
+
+.ogform .field-group, 
+div.pane-email-signup-pane-email .mc-field-group
+{ margin-bottom:0px;}
+
+div.pane-email-signup-pane-email .mc-field-group {clear:both}
+div.pane-email-signup-pane-email .mc-field-group.mailhalf {clear: none; float: left; margin-right: 22px;}
+div.pane-email-signup-pane-email .mc-field-group.mailhalf input { width: 130px;}
+div.pane-email-signup-pane-email .mc-field-group.mailhalf .field-wrapper { width: 132px;}
+
+.ogform .field-group input, 
+div.pane-email-signup-pane-email .mc-field-group input { width: 291px; }
+div.pane-email-signup-pane-email .mc-field-group input#mce-EMAIL { width: 291px; }
+div.pane-email-signup-pane-email .mc-field-group input#mce-EMAIL { width: 291px; }
+
+div.pane-email-signup-pane-email .mc-field-group .field-wrapper {width: 293px;}
+
+div.pane-email-signup-pane-email #mce-MMERGE4-month { left:2px; top:2px; }
+div.pane-email-signup-pane-email #mce-MMERGE4-day { left:41px; top:2px; }
+div.pane-email-signup-pane-email #mce-MMERGE4-year { left:80px; top:2px; width:49px }
+
+.ogform .field-set.full input.termscheckbox, 
+div.pane-email-signup-pane-email .mc-field-group input.termscheckbox { width:20px; padding:0px; margin:0px; }
+
+.submit-wrapper {clear: both; width: 550px; text-align: right;}
+
+
+
+/* pane-new-email-view-new-email-view */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+
+div.pane-new-email-view-new-email-view .terms-wrapper a { color: #ff5da7; }
+
+.ogform .field-wrapper
+{ margin-left:80px; }
+
+#conf-form .full .field-wrapper { float: left; margin-left: 0px;}
+#conf-form .half .field-wrapper { float: left; margin-left: 0px;}
+/*#conf-form .full .field-wrapper.long-label { margin-top: 11px;}*/
+
+div.pane-new-email-view-new-email-view .field-wrapper {float: left; margin-left: 0px;}
+
+.ogform .form-label, 
+div.pane-new-email-view-new-email-view .form-label 
+{ color:#f19bc1; font-size:15px; float:left; width: 75px; text-align: right; margin-right: 10px;}
+
+#conf-form label {width: 125px; text-align: right; float: left; margin-right: 10px; top: -11px}
+#conf-form .half label.halfr {width: 70px; text-align: right; float: left; margin-right: 10px;}
+.ogform .form-label.long {width: 125px; position: relative; }
+.ogform .field-set.offset {top: -11px; position: relative;}
+
+.ogform .date-field,  
+div.pane-new-email-view-new-email-view .date-field 
+{ position:relative; height:25px;  }
+
+.ogform div.field-wrapper div.datefield input, 
+div.pane-new-email-view-new-email-view div.mc-field-group div.field-wrapper div.datefield input 
+{ position:absolute; width:37px; }
+
+div.pane-new-email-view-new-email-view div.datefield 
+{ height:24px; position:relative; padding:0px; margin:0px; }
+
+.ogform .field-group, 
+div.pane-new-email-view-new-email-view .mc-field-group
+{ margin-bottom:0px;}
+
+div.pane-new-email-view-new-email-view .mc-field-group {clear:both}
+div.pane-new-email-view-new-email-view .mc-field-group.mailhalf {clear: none; float: left; margin-right: 22px;}
+div.pane-new-email-view-new-email-view .mc-field-group.mailhalf input { width: 130px;}
+div.pane-new-email-view-new-email-view .mc-field-group.mailhalf .field-wrapper { width: 132px;}
+
+.ogform .field-group input, 
+div.pane-new-email-view-new-email-view .mc-field-group input { width: 291px; }
+div.pane-new-email-view-new-email-view .mc-field-group input#mce-EMAIL { width: 291px; }
+div.pane-new-email-view-new-email-view .mc-field-group input#mce-EMAIL { width: 291px; }
+
+div.pane-new-email-view-new-email-view .mc-field-group .field-wrapper {width: 293px;}
+
+div.pane-new-email-view-new-email-view #mce-MMERGE4-month { left:2px; top:2px; }
+div.pane-new-email-view-new-email-view #mce-MMERGE4-day { left:41px; top:2px; }
+div.pane-new-email-view-new-email-view #mce-MMERGE4-year { left:80px; top:2px; width:49px }
+
+.ogform .field-set.full input.termscheckbox, 
+div.pane-new-email-view-new-email-view .mc-field-group input.termscheckbox { width:20px; padding:0px; margin:0px; }
+
+
+
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+
+
+
+/* MAIL PAGE STYLES */
+/*
+input::-webkit-input-placeholder {
+    color:    #5d296b;
+}
+input:-moz-placeholder {
+    color:    #5d296b;
+}
+input.termscheckbox {
+	width:80px;
+}
+.datefield input {
+	margin:0px;
+	width:30px;
+}
+body.html #mc_embed_signup input.subscribe {
+	background-color:transparent;
+	border-width:0px;
+	font-size:18px;
+	height:44px;
+	width:128px;
+	color:#ffffff;
+	background-image:url(../images/mail-button.png);
+	background-position:0px 4px;
+	position:relative;
+	margin-left:80px;
+	margin-top:20px;
+}
+
+body.html #mc_embed_signup input.subscribe:hover {
+	color:#fff000;
+	background-position:0px -46px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.status { height:30px; }
+
+
+.page-page-emails .panel-col-top .pane-content {
+	width:560px;
+	font-size: 13px;
+}
+.page-page-emails .panel-col-first {
+	width:308px;
+}
+.page-page-emails .panel-col-last {
+	margin-top:100px;
+}
+
+body.html #mc_embed_signup {
+	position:relative;
+	background-repeat:no-repeat;
+	background-image:url('../images/mail-form-bg.png');
+	width:332px;
+	height:500px;
+	margin-left:-15px;
+	color:white;
+}
+.form-label {
+	font-weight:400;
+	font-size:18px;
+	margin:0px;
+	margin-top:5px;
+}
+body.html #mc_embed_signup label.plain-label {
+	font-weight:100;
+	font-size:12px;
+	position:relative;
+	display:block;
+	float:right;
+	width:190px;
+}
+body.html #mc_embed_signup form{
+	position:absolute;
+	left: 8px;
+	top: 50px;
+}
+body.html #mc_embed_signup input{
+	background-color:#f19bc1;
+	border:1px solid #5d296b;
+	color:#5d296b;
+}
+body.html .datefield .subfield { 
+	display:inline;
+}
+body.html #mc_embed_signup .mc-field-group input {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+body.html #mc_embed_signup .field-wrapper {
+	border:1px dashed #c67dc1;
+	padding:3px;
+	padding-right:6px;
+}
+#mc_embed_signup .form-wrapper {
+	width:222px;
+	padding:10px;
+	margin-top:10px;
+	height: 277px;
+}
+
+.terms-wrapper {
+	font-size:10px;
+	line-height:13px;
+	color:#ffffff;
+	margin-left:80px;
+}
+div.mail-status { 
+	height:20px; 
+	text-align:right;
+	font-size:12px;
+	font-weight:900;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fdc92b;
+	paddint-top:2px;
+}
+div.mail-status span {
+	display:none;
+}
+.field-wrapper, .datefield {
+	position:relative;
+}
+
+div.mail-deco-title { 
+	left: -183px;
+	top: -224px;
+	background-image:url(../images/mail-deco-title.png); 
+	height:171px;
+	width:171px;
+}
+div.mail-bg1 { 
+	background-image:url(../images/mail-deco-1.png);  
+	height:145px;
+	width:175px; 
+	top: -211px;
+	left: 573px;
+}
+div.mail-bg2 { left:-70px; top:230px; background-image:url(../images/mail-cloud.png); height:268px; width:344px; }
+
+div.pane-email-signup-pane-email .terms-wrapper a { color: #ff5da7; }
+div.pane-email-signup-pane-email .field-wrapper { margin-left:80px; }
+div.pane-email-signup-pane-email .form-label { color:#f19bc1; font-size:15px; float:left; }
+div.pane-email-signup-pane-email .date-field { position:relative; height:25px;  }
+div.pane-email-signup-pane-email div.mc-field-group div.field-wrapper div.datefield input { position:absolute; width:37px; }
+div.pane-email-signup-pane-email div.datefield { height:24px; position:relative; padding:0px; margin:0px; }
+div.pane-email-signup-pane-email .mc-field-group { margin-bottom:0px; }
+div.pane-email-signup-pane-email .mc-field-group input { width: 130px; }
+div.pane-email-signup-pane-email #mce-MMERGE4-month { left:2px; top:2px; }
+div.pane-email-signup-pane-email #mce-MMERGE4-day { left:41px; top:2px; }
+div.pane-email-signup-pane-email #mce-MMERGE4-year { left:80px; top:2px; width:49px }
+div.pane-email-signup-pane-email .mc-field-group input.termscheckbox { width:20px; padding:0px; margin:0px; }
+*/

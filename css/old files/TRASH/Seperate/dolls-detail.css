@@ -1,0 +1,208 @@
+
+/* Doll Detail */
+body.node-type-doll div.content-inner, body.node-type-accessory div.content-inner {
+	width:100%;
+}
+body.node-type-doll div.content-wrapper, body.node-type-accessory div.content-wrapper {
+	padding-bottom:0px;
+}
+
+/* WHAT WAS THIS FOR?
+div.center-content-wrapper {
+	margin-left:180px;
+}
+*/
+div.center-content {
+	position:relative;
+	width:970px;
+	min-height:637px;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+div.arrow-link {
+	position:fixed;
+	width:80px;
+	height:80px;
+	/*top:300px;*/
+	top:45%;
+	z-index:10;
+	background-repeat:no-repeat;
+}
+div.arrow-link:hover {
+	background-position:0px -80px;
+}
+div.arrow-link a {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%; width:100%;
+}
+div.doll-title .deco{ 
+	position:absolute; 
+	left:-176px;
+	top:-88px;
+}
+div.doll-title {
+	position:relative;
+	margin-top:70px;
+	margin-right:0px;
+}
+div.doll-title.acc-title {
+	margin-top: 121px;
+}
+div.doll-title h3 {
+	margin:0px;
+	margin-top:5px;
+	font-size:25px;
+	line-height:27px;
+	font-weight:400;
+	width:220px;
+}
+div.doll-title h2, div.pink-sub h2 {
+	font-size:24px;
+	font-weight:400;
+	position:absolute;
+	top:-45px;
+	color:#e05997;
+}
+
+div.right-arrow {
+	right:0px;
+	background-image:url("../images/doll-next.png");
+}
+div.left-arrow {
+	left:0px;
+	background-image:url("../images/doll-prev.png");
+}
+div.doll-center .big-image {
+	position:absolute;
+	top:-50px;
+	left:-60px;
+}
+.secondary-image { display: none;}
+
+div.doll-center div.rating {
+	margin-top:500px;
+	margin-left:10px;
+	position:relative;
+}
+div.vote-wrapper {
+	position:absolute;
+	top:50px;
+	left:60px;
+	display:none;
+}
+div.rating-heart, div.five-star-wrapper .fivestar-hearts div.fivestar-widget div {
+	height:16px;
+	width:20px;	
+}
+div.rating-heart, div.five-star-wrapper .fivestar-hearts div.fivestar-widget div a {
+	height:16px;
+	width:20px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	background-image:url("../images/poll-hearts.gif");
+	background-repeat:no-repeat;
+	background-position:0px -1px;
+}
+div.five-star-wrapper {
+	position:absolute;
+	top:50px;
+	left:60px;
+}
+
+
+
+/* Kloodge to work around a 5 Star Bug */
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star-1 a,
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star-2 a,
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star-3 a,
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star-4 a,
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -1px;
+}
+
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star-1 a {
+	background-position:0px -17px;
+}
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star-2 a,
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star-3 a,
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star-4 a,
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -1px;
+}
+
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star-1 a, 
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star-2 a {
+	background-position:0px -17px;
+}
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star-3 a,
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star-4 a,
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -1px;
+}
+
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star-1 a, 
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star-2 a, 
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star-3 a {
+	background-position:0px -17px;
+}
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star-4 a,
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -1px;
+}
+
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star-1 a, 
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star-2 a, 
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star-3 a, 
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star-4 a {
+	background-position:0px -17px;
+}
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -1px;
+}
+
+div.five-star-wrapper.active-5 .fivestar-hearts div.fivestar-widget div.star-1 a,
+div.five-star-wrapper.active-5 .fivestar-hearts div.fivestar-widget div.star-2 a,
+div.five-star-wrapper.active-5 .fivestar-hearts div.fivestar-widget div.star-3 a,
+div.five-star-wrapper.active-5 .fivestar-hearts div.fivestar-widget div.star-4 a,
+div.five-star-wrapper.active-5 .fivestar-hearts div.fivestar-widget div.star-5 a {
+	background-position:0px -17px;
+}
+
+div.five-star-wrapper.active-0 .fivestar-hearts div.fivestar-widget div.star.hover a,
+div.five-star-wrapper.active-1 .fivestar-hearts div.fivestar-widget div.star.hover a,
+div.five-star-wrapper.active-2 .fivestar-hearts div.fivestar-widget div.star.hover a,
+div.five-star-wrapper.active-3 .fivestar-hearts div.fivestar-widget div.star.hover a,
+div.five-star-wrapper.active-4 .fivestar-hearts div.fivestar-widget div.star.hover a {
+	background-position:0px -17px;
+}
+
+div.five-star-wrapper .ajax-progress {
+	display:none;
+	position:absolute;
+	top:25px;
+	width:200px;
+}
+div.rating-heart:hover, 
+div.five-star-wrapper .fivestar-hearts div.fivestar-widget div a:hover,
+div.five-star-wrapper .fivestar-hearts div.fivestar-widget div.on a
+{
+	cursor:pointer;
+	background-position:0px -17px;
+}
+div.rating img {
+	position:absolute;
+}
+div.rating img.default-insignia {
+	top:5px;
+}
+img.rating-label {
+	position:absolute;
+	left:0px;
+	top:8px;
+}

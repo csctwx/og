@@ -1,0 +1,36 @@
+
+/*
+
+########   #######   #######  ##    ##  ######  
+##     ## ##     ## ##     ## ##   ##  ##    ## 
+##     ## ##     ## ##     ## ##  ##   ##       
+########  ##     ## ##     ## #####     ######  
+##     ## ##     ## ##     ## ##  ##         ## 
+##     ## ##     ## ##     ## ##   ##  ##    ## 
+########   #######   #######  ##    ##  ######  
+
+*/
+
+.book-feature { display:none; position:absolute; top:100px; left:850px;}
+
+.node-type-bookshelf .content-wrapper {
+	padding-bottom:0px;
+}
+
+.node-type-bookshelf .content-inner {
+	/*background-image:url(../images/shelf_main.png);*/
+	min-height:900px;
+	width:1140px;
+	background-position:0px 37px;
+	background-repeat:no-repeat;
+}
+.node-type-bookshelf .intro-text {
+	width:315px;
+}
+.node-type-bookshelf .page-heading {
+	width:335px;
+	position:absolute;
+	left:730px;
+	top:30px;
+}
+
