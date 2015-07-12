@@ -1,5 +1,5 @@
 div.html5gallery-tn-img-play-0{
-	display: none !important;
+	/*display: none !important;*/
 }
 
 a[href="http://html5box.com/html5gallery/watermark.php"]{
@@ -8,11 +8,42 @@ a[href="http://html5box.com/html5gallery/watermark.php"]{
 
 body.page-video-gallery #content{
 	margin: 0;
-	margin-top: 180px;
+	margin-top: 190px;
   	margin-left: -5px;
 }
 
 div.content-inner {
-	background: url('../images/video/video-frame-clouds.png') no-repeat;
-	width: 1440px;
+	background: url('../images/video/OG-video-gallery-background.png') no-repeat;
+	width: 1370px;
+	margin-top: 20px;
 }
+
+div.html5gallery-car-0{
+	top: 760px;
+}
+
+div.html5gallery-thumbs-0 {
+	margin-left: 20px;
+}
+
+div.html5gallery-tn-selected-0,
+div.html5gallery-tn-0{
+	width: 246px !important;
+	height: 164px !important;
+	margin-right: 20px;
+	background: url('../images/video/thumb-bg.png') no-repeat;
+}
+
+div.html5gallery-tn-img-0, 
+div.html5gallery-tn-img-0 > div,
+img.html5gallery-tn-image-0{
+	width: 219px !important;
+	height: 137px !important;	
+}
+
+div.html5gallery-tn-img-0 {
+	margin-top:7px;
+	margin-left: 17px;
+}
+
+ 

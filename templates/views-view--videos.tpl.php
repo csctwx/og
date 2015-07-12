@@ -36,8 +36,8 @@
         <!-- Define the Div for Gallery -->
         <!-- 1. Add class html5gallery to the Div -->
         <!-- 2. Define parameters with HTML5 data tags -->
-        <div style="display:none;margin:0 auto;" class="html5gallery" data-skin="mediapage" data-width="840" data-height="476" data-resizemode="fill" data-autoplayvideo="false"  data-playvideoonclick="false">
-        <!--  -->
+        <div style="display:none;margin:0 auto;" class="html5gallery" data-skin="mediapage" data-width="800" data-height="450" data-resizemode="fill" >
+        <!-- data-autoplayvideo="false"  data-playvideoonclick="false" -->
           <?php print $rows; ?>
         </div>      
     </div>  
