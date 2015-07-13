@@ -46,4 +46,29 @@ div.html5gallery-tn-img-0 {
 	margin-left: 17px;
 }
 
+div.html5gallery-tn-title-0 {
+	color: #f46db6;
+	font-size: 12px;
+	font-weight: 900;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+div.html5gallery-title-0{
+	display: inline-block !important;
+	top: 500px;	
+	/*background-image: url('../images/video/purplebox-left.png'), url('../images/video/purplebox-right.png');
+	background-repeat: no-repeat;
+	background-position: left, right;	
+	width: auto;*/
+}
+
+div.html5gallery-title-text-0{
+	display: inline-block;	
+	background: none;
+	background-image: url('../images/video/purplebox-left.png'), url('../images/video/purplebox-middle.png'), url('../images/video/purplebox-right.png');;	
+	background-repeat: no-repeat, repeat-x, no-repeat;
+	background-position: left, left 30px center, right;	
+	padding:30px;	
+}
  
+/**/
