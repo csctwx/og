@@ -41,6 +41,23 @@
           <?php print $rows; ?>
         </div>      
     </div>  
+  <?php endif; ?>  
+  <?php if ($pager): ?>
+    <?php print $pager; ?>
   <?php endif; ?>
-
+  <script>
+    jQuery(function($){
+      var set_height = function(){
+        //var car_length = jQuery('div.html5gallery-tn-0').height();
+        var count = $('.html5gallery-tn-0').length;
+        var rows = Math.floor(count/3) + 1;
+        var car_length = rows*180;
+        //alert(rows);
+        jQuery('div.html5gallery').height(740+car_length);
+        jQuery('div.html5gallery-container-0').height(740+car_length);
+      };
+      setTimeout(set_height, 1000);
+      
+    });
+  </script>
   

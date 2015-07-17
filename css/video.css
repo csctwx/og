@@ -79,4 +79,40 @@ div.html5gallery-title-text-0{
 	text-shadow: 2px 3px 3px #be4286;
 	font-family: coquette,arial;
 }
- 
+
+div.view-content {    
+    /*height: 1295px;*/
+}
+
+
+.pager li a.active {
+  color: #f46db6;
+}
+
+div.html5gallery-thumbs-0 div.html5gallery-tn-title-0 {
+	width: 100%;
+}
+
+#nav-wrapper #navigation ul.menu {
+  width: 820px;
+}
+
+.region-navigation #block-search-form {  
+  margin-right: -70px;
+}
+
+.region-navigation  div.form-item-search-block-form input.form-text {  
+  width: 90px;
+}
+
+span.search-submitter {  
+  margin-right: 35px;
+}
+
+#navigation img.badge {  
+  left: -40px;
+}
+
+#nav-wrapper #navigation .menu-wrapper {  
+  left: 40px;
+}
