@@ -46,18 +46,24 @@
     <?php print $pager; ?>
   <?php endif; ?>
   <script>
-    jQuery(function($){
-      var set_height = function(){
-        //var car_length = jQuery('div.html5gallery-tn-0').height();
-        var count = $('.html5gallery-tn-0').length;
-        var rows = Math.floor(count/3) + 1;
-        var car_length = rows*180;
-        //alert(rows);
-        jQuery('div.html5gallery').height(740+car_length);
-        jQuery('div.html5gallery-container-0').height(740+car_length);
-      };
-      setTimeout(set_height, 1000);
+    jQuery(function(){
+      // var set_height = function(){
+      //   //var car_length = jQuery('div.html5gallery-tn-0').height();
+      //   // var count = $('.html5gallery-tn-0').length;
+        
+      // };
+      // setTimeout(set_height, 1000);
       
+      var count = jQuery('.html5gallery > a').length;
+      var rows = Math.ceil(count/3);
+      var car_height = rows * 180;
+      var base_height = 740;
+      var current_height = base_height + car_height;
+      
+      jQuery('div.html5gallery').css('min-height',current_height);
+      jQuery('div.html5gallery').css('max-height',current_height);
+      jQuery('div.html5gallery-container-0').css('min-height',current_height);
+      jQuery('div.html5gallery-container-0').css('max-height',current_height);
     });
   </script>
   
