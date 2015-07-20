@@ -34,19 +34,25 @@
 	if (!empty($fields['field_video_file']->content) ) :
 		print $fields['field_video_file']->content;
 	endif;	
+	
+	$video_url = drupal_html_to_text($fields['field_video_url']->content);
+	$video_thumbnail = drupal_html_to_text($fields['field_video_thumbnail']->content);
+	$video_title = drupal_html_to_text($fields['title']->content);
+	
 
-	if (!empty($fields['field_video_url']->content) ) :	
-	    $video_url = $fields['field_video_url']->content;
+	if (!empty($video_url) ) :	
+	    //$video_url = $fields['field_video_url']->content;
 	    $img_src = '';
-	    if (!empty($fields['field_video_thumbnail']->content) ) :				
-			$img_src = $fields['field_video_thumbnail']->content;
+	    if (!empty($video_thumbnail) ) :				
+			$img_src = $video_thumbnail;
 		else:
 			$youtube_id = substr($video_url, strrpos($video_url, '/') + 1);
 		    $img_src = "http://img.youtube.com/vi/$youtube_id/mqdefault.jpg"; 
 		endif;	
-		$title = $fields['title']->content;			
+		$title = $video_title;			
 	    $video_link = '<a href="'.$video_url.'"><img src="'.$img_src.'" alt="'.$title.'"/></a>';
 		print $video_link;
+		//kpr($video_link); die();
 	endif;	
 
 	

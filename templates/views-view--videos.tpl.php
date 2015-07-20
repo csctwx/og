@@ -27,8 +27,8 @@
  */
 ?>  
   <?php if ($title): ?>    
-    <?php print $title; ?>    
-  <?php endif; ?>
+    <?php print $title; echo "Test"; ?>    
+  <?php endif; ?>  
   <?php if ($rows): ?>
     <!-- A wrapper DIV to center the Gallery -->
     <div class="view-content" style="text-align:center;"> 
