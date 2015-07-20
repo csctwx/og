@@ -41,6 +41,29 @@
           <?php print $rows; ?>
         </div>      
     </div>  
+  <?php endif; ?>  
+  <?php if ($pager): ?>
+    <?php print $pager; ?>
   <?php endif; ?>
-
+  <script>
+    jQuery(function(){
+      // var set_height = function(){
+      //   //var car_length = jQuery('div.html5gallery-tn-0').height();
+      //   // var count = $('.html5gallery-tn-0').length;
+        
+      // };
+      // setTimeout(set_height, 1000);
+      
+      var count = jQuery('.html5gallery > a').length;
+      var rows = Math.ceil(count/3);
+      var car_height = rows * 180;
+      var base_height = 740;
+      var current_height = base_height + car_height;
+      
+      jQuery('div.html5gallery').css('min-height',current_height);
+      jQuery('div.html5gallery').css('max-height',current_height);
+      jQuery('div.html5gallery-container-0').css('min-height',current_height);
+      jQuery('div.html5gallery-container-0').css('max-height',current_height);
+    });
+  </script>
   
