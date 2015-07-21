@@ -93,26 +93,9 @@ div.html5gallery-thumbs-0 div.html5gallery-tn-title-0 {
 	width: 100%;
 }
 
-#nav-wrapper #navigation ul.menu {
-  width: 820px;
+.html5gallery-right-0,
+.html5gallery-left-0 {
+	background-position: 0% 0% !important;
 }
 
-.region-navigation #block-search-form {  
-  margin-right: -70px;
-}
-
-.region-navigation  div.form-item-search-block-form input.form-text {  
-  width: 90px;
-}
-
-span.search-submitter {  
-  margin-right: 35px;
-}
-
-#navigation img.badge {  
-  left: -40px;
-}
-
-#nav-wrapper #navigation .menu-wrapper {  
-  left: 40px;
-}
+ 
