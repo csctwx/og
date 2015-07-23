@@ -31,13 +31,21 @@
 ?>
 		
 <?php
-	if (!empty($fields['field_video_file']->content) ) :
-		print $fields['field_video_file']->content;
-	endif;	
-	
+    $video_file = drupal_html_to_text($fields['field_video_file']->content); 
 	$video_url = drupal_html_to_text($fields['field_video_url']->content);
 	$video_thumbnail = drupal_html_to_text($fields['field_video_thumbnail']->content);
 	$video_title = drupal_html_to_text($fields['title']->content);
+	
+	if (!empty($video_file) ) :
+		//print $fields['field_video_file']->content;
+		//kpr($fields['field_video_file']->content); die();
+		$video_link = '<a href="'.$video_file.'"><img src="'.$video_thumbnail.'" alt="'.$video_title.'"/></a>';
+		print $video_link;
+		
+		//kpr($video_file); die();
+	endif;	
+	
+	
 	
 
 	if (!empty($video_url) ) :	
